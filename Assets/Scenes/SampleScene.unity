@@ -158,18 +158,36 @@ MonoBehaviour:
   goldChest: 50
   platinumChest: 1
   chestTypes: []
-  woodCommonDrops: 200
-  woodUncommonDrops: 50
-  woodRareDrops: 25
-  woodEpicDrops: 5
-  woodLegendaryDrops: 1
+  woodChestCommon: 200
+  woodChestUncommon: 50
+  woodChestRare: 25
+  woodChestEpic: 5
+  woodChestLegendary: 1
   woodChestDrops: []
-  bronzeCommonDrops: 200
-  bronzeUncommonDrops: 50
-  bronzeRareDrops: 25
-  bronzeEpicDrops: 5
-  bronzeLegendaryDrops: 1
+  bronzeChestCommon: 200
+  bronzeChestUncommon: 50
+  bronzeChestRare: 25
+  bronzeChestEpic: 5
+  bronzeChestLegendary: 1
   bronzeChestDrops: []
+  silverChestCommon: 50
+  silverChestUncommon: 50
+  silverChestRare: 25
+  silverChestEpic: 5
+  silverChestLegendary: 1
+  silverChestDrops: []
+  goldChestCommon: 100
+  goldChestUncommon: 25
+  goldChestRare: 10
+  goldChestEpic: 5
+  goldChestLegendary: 1
+  goldChestDrops: []
+  platinumChestCommon: 10
+  platinumChestUncommon: 20
+  platinumChestRare: 25
+  platinumChestEpic: 5
+  platinumChestLegendary: 10
+  platinumChestDrops: []
 --- !u!4 &301989082
 Transform:
   m_ObjectHideFlags: 0
