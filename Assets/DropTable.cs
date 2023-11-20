@@ -117,22 +117,21 @@ public class DropTable : MonoBehaviour
             switch (generatedChest)
             {
                 case "Wooden Chest":
-                    Debug.Log(generatedChest); 
+                    Debug.Log("You Found A " + generatedChest + "! It Contains A " + woodChestDrops.ElementAt(Random.Range(0, woodChestDrops.Count())) + "!"); 
                     break;
                 case "Bronze Chest":
-                    Debug.Log(generatedChest);
+                    Debug.Log("You Found A " + generatedChest + "! It Contains A " + bronzeChestDrops.ElementAt(Random.Range(0, bronzeChestDrops.Count())) + "!");
                     break;
                 case "Silver Chest":
-                    Debug.Log(generatedChest);
+                    Debug.Log("You Found A " + generatedChest + "! It Contains A " + silverChestDrops.ElementAt(Random.Range(0, silverChestDrops.Count())) + "!");
                     break;
                 case "Gold Chest":
-                    Debug.Log(generatedChest);
+                    Debug.Log("You Found A " + generatedChest + "! It Contains A " + goldChestDrops.ElementAt(Random.Range(0, goldChestDrops.Count())) + "!");
                     break;
                 case "Platinum Chest":
-                    Debug.Log(generatedChest);
+                    Debug.Log("You Found A " + generatedChest + "! It Contains A " + platinumChestDrops.ElementAt(Random.Range(0, platinumChestDrops.Count())) + "!");
                     break;
             }
-            //Debug.Log(chestTypes.ElementAt(Random.Range(0, chestTypes.Count())));
         }
     }
 }
