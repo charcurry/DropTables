@@ -110,6 +110,29 @@ public class DropTable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            string generatedChest = chestTypes.ElementAt(Random.Range(0, chestTypes.Count()));
+
+            switch (generatedChest)
+            {
+                case "Wooden Chest":
+                    Debug.Log(generatedChest); 
+                    break;
+                case "Bronze Chest":
+                    Debug.Log(generatedChest);
+                    break;
+                case "Silver Chest":
+                    Debug.Log(generatedChest);
+                    break;
+                case "Gold Chest":
+                    Debug.Log(generatedChest);
+                    break;
+                case "Platinum Chest":
+                    Debug.Log(generatedChest);
+                    break;
+            }
+            //Debug.Log(chestTypes.ElementAt(Random.Range(0, chestTypes.Count())));
+        }
     }
 }
